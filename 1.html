@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>搜狗</title>
+<style>
+.clearfix::after{
+    content:"";
+    display:block;
+    clear:both;
+    width: 0;
+    height: 0;
+    font-size: 0;
+}
+.top {
+    width: 1000px;
+    margin: 10px auto;
+    position: relative;
+}
+.top .logo img{
+    width: 193px;
+    height: 40px;
+    float: left;
+}
+ .top .search {
+    width: 345px;
+    height: 32px;
+    float: right;
+}
+.menucon {
+        width: 100%;
+        height: 40px;
+        background-color: #FC6B2D;
+} 
+.menucon .menu{
+      width: 1000px;
+      margin: 0 auto;
+}
+.menucon .menu li{
+      list-style-type: none;
+      font-weight: bolder;
+      float: left;
+      padding:11px 35px;
+      margin: 0px 20px 0 10px;
+      position: relative;
+}
+.menu li a {
+        color: #fff;
+        text-decoration: none;
+}
+.menu li:hover {
+        background-color: #E94F0D;
+}
+.bannercon{
+      background: url(http://dl.pinyin.sogou.com/index/2.0/banner_8.0.2.jpg);
+      height: 400px;
+      background-position: center 0;
+}
+.bannercon .banner{
+      width: 1000px;
+      height: 400px;
+      margin: 0 auto;
+      position: relative;
+}
+.bannercon .banner .date{
+      position: absolute; 
+      left: 574px;
+      top: 252px;  
+}
+.bannercon .banner .version{
+      position: absolute;
+      left: 760px;
+      top: 252px;
+}
+.bannercon .banner .support{
+      position: absolute;
+      left: 574px;
+      top: 282px;
+}
+.bannercon .banner .download{
+      position: absolute;
+      left: 574px;
+      bottom: 20px;
+} 
+.bannercon .banner .download a{
+     display: inline-block;
+     width: 241px;
+     height: 60px;
+     background: url(http://dl.pinyin.sogou.com/index/2.0/btn_down_one_8.0.1.png);
+     text-indent: -999em;
+}
+.bannercon .banner .download a:hover{
+      background-position: 0 -60px;
+}
+.bannercon .banner .qrcode{
+      position: absolute;
+      right: 0;
+      bottom:60px;
+      width: 89px;
+      height: 89px;
+      background: url("http://dl.pinyin.sogou.com/index/2.0/mobile_qrcode_7.7.png");
+}
+.bannercon .banner .mobileDownload{
+      position: absolute;
+      right: 0;
+      bottom: 20px;
+} 
+.bannercon .banner .mobileDownload{
+      display: inline-block;
+      width: 90px;
+      height: 22px;
+      background: url("http://dl.pinyin.sogou.com/index/2.0/btn_down_mobile_8.0.1.png");
+      text-indent: -999em;
+}
+</style>
+</head>
+<body>
+	<div class="top clearfix">
+		<div class="logo">
+			<a href="http://pinyin.sogou.com/">
+				<img src="http://dl.pinyin.sogou.com/index/header/logo.png" alt="">
+			</a>
+		</div>
+		<div class="search">
+			<input type="text" name="key" id="key">
+            <input type="submit" id="btn" value="搜索">
+			</a>
+		</div>
+	</div>
+	<div class="menucon">
+		<ul class="menu">
+			<li>
+                <a  href="file:///C:/Users/Administrator/Desktop/%E6%90%9C%E7%8B%97.html">首页</a>
+            </li>
+            <li>
+                <a href="http://pinyin.sogou.com/skins/">皮肤</a>
+            </li>
+            <li>
+                <a href="http://pinyin.sogou.com/dict/">词库</a>
+            </li>
+            <li>
+                <a href="http://pinyin.sogou.com/zimeiti/">字媒体</a>
+            </li>
+            <li>
+                <a href="http://pinyin.sogou.com/help.php">帮助</a>
+            </li>
+            <li>
+                <a href="http://pinyin.sogou.com/changelog.php">升级日志</a>
+            </li>
+            <li>
+                <a href="http://pinyin.sogou.com/bbs/forum.php?gid=3">论坛</a>
+            </li>
+		</ul>
+	</div>  
+  <div class="bannercon">
+    <div class="banner">
+      <div class="date">更新日期 : 2016-05-12</div>
+      <div class="version"><a href="http://pinyin.sogou.com/features8.0.1/">新版特性</a></div>
+      <div class="support">支持：XP / WIN7 / WIN8 / WIN10</div>
+      <div class="download"><a href="http://cdn2.ime.sogou.com/7759fbb438b7f65fc615a1b52fe9fe59/573519b1/dl/index/1463039238/sogou_pinyin_80c.exe">立即下载 </a></div>
+      <div class="qrcode"></div>
+      <div class="mobileDownload">
+        <a href="http://shouji.sogou.com/sapp/media/?site=20150212website"></a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
