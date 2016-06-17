@@ -87,10 +87,6 @@ a:hover {
     width:100%;
     background: rgb(245, 245, 245);
 }
-.footer ul,
-.copyright p{
-	margin:0 240px;
-}
 .footer .bottomLink{
 	padding-top: 80px ;
     font-size: 14px;
@@ -114,7 +110,7 @@ a:hover {
     height: 25px;
     background-image: url('http://www.xunlei.com/img/ico_footer.png');
     position: absolute;
-    left:80%;
+    left:75%;
     margin-top: -38px;
 }
 .footer .contactUs .weixin img{
